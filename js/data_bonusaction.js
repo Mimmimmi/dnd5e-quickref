@@ -1,34 +1,34 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "쌍수 공격",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "공격 행동에 이어서",
+        description: "반대손에 들린 무기로 공격합니다.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "자신의 턴에 공격 행동으로, 경량형 속성이 달린 무기로 공격한 경우에 할 수 있습니다.",
+            "다른 경량형 무기로 한번 공격합니다.",
+            "수정치가 음수가 아닌 한, 피해 굴림에 능력 수정치를 더하지 않습니다.",
+            "1턴에 1번만 할 수 있습니다. 어차피 추가행동은 1턴에 1번 아니냐구요? 그게 ..."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "주문 시전",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "추가 행동의 시전 시간을 가진 주문을 시전합니다.",
+        description: "추가 행동의 시전 시간을 가진 주문을 시전합니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "한 턴에 슬롯을 소모하는 주문 2개를 쓸 수는 없으니 주의하세요.",
+            "자세한건 주문 시전 행동을 참고합시다."
         ]
     },
     {
-        title: "Use class feature",
+        title: "특수 기능 사용",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "몇몇 기능은 추가 행동을 요구합니다.",
+        description: "종족/클래스에서 얻는 기능을 사용할수 있습니다.",
+        reference: "각각의 기능을 참고하세요.",
         bullets: [
 
         ]
