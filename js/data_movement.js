@@ -1,124 +1,123 @@
 data_movement = [
     {
-        title: "Move",
+        title: "이동",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "비용 : 5피트(1칸)당 5피트",
+        description: "5피트를 걸어 이동하는데는 .. 5피트의 속도가 필요합니다.",
         reference: "PHB, pg. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "걷는 속도와 비행 속도처럼 여러 속도를 가지고 있다면, 이동 중에 속도를 전환할 수 있습니다. 속도를 전환할 때마다 새로운 속도에서 이미 이동한 거리를 빼세요.",
+            "적대적이지 않은 생물이 서있는 칸을 지나 움직일 수 있습니다.",
+            "적대적인 생물은 당신보다 두 단계 이상 크거나, 두 단계 이상 작아야 지나갈수 있습니다. 햄스터 위로 지나가는데 햄스터를 쓰러트릴 필요는 없죠.",
+            "다른 생물이 서있는 칸에서 턴을 마칠 수는 없으니 주의하세요 !",
+            "어떤 이유로 그렇게 된다면(예를 들어 칸을 지나 이동하다가 적에게 붙잡혔다던가), 넘어져버립니다."
         ]
     },
     {
-        title: "Climb",
+        title: "등반",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "비용 : 5피트(1칸)당 10피트",
+        description: "5피트의 벽을 올라가는데는 속도 10피트를 소모해야합니다.",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "오르기 어려운 벽은 근력(운동)판정이 필요할 때도 있어요 ! "
         ]
     },
     {
-        title: "Swim",
+        title: "수영",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "비용 : 5피트(1칸)당 10피트",
+        description: "5피트의 물의 헤엄치려면 속도 10피트를 소모해야합니다.",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "역시 험한 물살에선 근력(운동)판정이 필요할 때도 있어요"
         ]
     },
     {
-        title: "Drop prone",
+        title: "넘어지기",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "비용 : 0피트",
+        description: "내 턴이라면 속도 소모 없이 언제든 넘어질수 있어요!",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "자신의 턴이라면 언제든 속도 소모 없이 넘어질수 있습니다. 이 표현이 마음에 안들면 웅크린다고 해도 좋아요",
+            "넘어진 상태에서 움직이려면, 기어가거나 마법적인 능력을 써야합니다.",
+            "넘어진 상태에선 당신에게의 근접 공격에 유리점이 적용되지만, 원거리 공격엔 불리점이 적용됩니다. 아, 당신이 하는 공격은 어느쪽이든 불리점이 적용됩니다."
         ]
     },
     {
-        title: "Crawl",
+        title: "기어가기",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "비용 : 5피트(1칸)당 10피트",
+        description: "비용 : 5피트(1칸)당 10피트",
         reference: "PHB, pg. 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "일어서기",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "비용:내 속도의 절반",
+        description: "비용:내 속도의 절반",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "넘어짐 상태를 종료합니다. 속도가 부족하거나 0일땐 일어설 수 없어요."
         ]
     },
     {
-        title: "High jump",
+        title: "높이뛰기",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "비용 : 5피트당 5피트",
+        description: "비용 : 5피트당 5피트",
         
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "도움닫기로 10피트 달린 다음 높이뛰기하면, 3+근력 수정치 피트만큼 뛸 수 있습니다.",
+            "도움닫기가 없었다면 그 절반만큼만 뛸 수 있습니다.",
+            "뛰는 도중 당신의 팔(키의 절반 취급)을 뻗을 수 있습니다.",
+            "몇몇 상황에선 DM이 근력(운동)판정을 요구할 수 있습니다."
         ]
     },
     {
-        title: "Long jump",
+        title: "멀리뛰기",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "비용 : 5피트당 5피트",
+        description: "비용 : 5피트당 5피트",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "도움닫기로 10피트 달린 다음 높이뛰기하면, 근력 능력치 피트만큼 뛸 수 있습니다.",
+            "도움닫기가 없었다면 그 절반만큼만 뛸 수 있습니다.",
+            "종종 근력(운동)판정이나 민첩(곡예)판정이 필요할 때가 있습니다."
         ]
     },
     {
-        title: "Improvise",
+        title: "즉흥",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "여기 적히지 않은 것들",
+        description: "뭔가 생각나는걸 선언해보세요",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "여기 적히지 않은 기이한 이동을 해봅니다. DM이 그게 되는지 안되는지 정해줄거고, 필요하다면 판정을 요구할 수도 있습니다."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "험지",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "이동비용 : 5피트당 +5피트",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "어질러진 방이나 우거진 수풀, 끈적한 갯벌 등에서 움직일 때는 속도가 추가로 듭니다.",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "붙잡은 채로 이동",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        subtitle: "속도 절반",
+        description: "붙잡거나 업은 생물을 끌고 이동합니다.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "당신보다 두 단계 이상 작지 않은 생물을 잡고 이동하는 동안, 속도가 절반이 됩니다. 다행히 햄스터정도는 그냥 끌고갈수 있군요.",
+            "붙잡기는 공격 쪽을 참조하세요."
         ]
     }
 ]
