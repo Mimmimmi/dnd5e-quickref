@@ -1,199 +1,192 @@
 data_action = [
     {
-        title: "Attack",
+        title: "공격",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "근접 또는 원거리 공격",
+        description: "맨손이나 들고 있는 무기로 한번 공격합니다.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "파이터의 <i>추가 공격</i> 기능과 같은 특정 능력은 이 행동으로 두 번 이상 공격할 수 있도록 해줍니다. 각 공격은 별도의 공격 굴림으로 이루어지며, 서로 다른 대상을 공격할 수 있습니다. 공격 사이에 이동할 수도 있습니다.",
+            "경량형 근접 무기로 공격할 때,  추가 행동을 사용하여 반대 손으로 공격할 수 있습니다(<i>쌍수 공격</i> 추가 행동 참조).",
+            "몇몇 상황에서는 공격에 이점이 적용됩니다. 당신을 볼수 없거나, 마비되었거나, 석화되었거나, 구속되었거나, 기절하거나, 의식을 잃은 적에 대해 공격할 때. 넘어진 적에게 근접 공격을 할 때 등등.",
+            "몇몇 상황에선 공격에 불리점이 적용됩니다. 당신이 볼 수 없는 적을 공격할 때, 넘어진 적에게 원거리 공격을 할 때, 공포, 중독, 구속 상태에서 공격할 때, 적과 인접해있는동안 원거리 공격을 할 때 등."
         ]
     },
     {
-        title: "Grapple",
+        title: "비무장 공격",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "적을 때리거나 붙잡거나 밀칩니다",
+        description: "일단은 공격의 일종이지만요...",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "공격 행동을 할때 무기로 때리는 대신 비무장 공격을 할수 있습니다.",
+            "주먹이나 발차기 등 맨몸을 이용한 공격은 1+근력 수정치 만큼의 피해를 줍니다.",
+            "공격 대신 붙잡기나 밀치기를 선언하면, 대상이 8+숙련 보너스+당신의 근력 수정치를 난이도로 내성 굴림을 합니다.",
+            "그에 실패하면, 대상은 당신에게 붙잡히거나 밀려나거나 넘어집니다."
         ]
     },
     {
-        title: "Shove",
-        icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
-        ]
-    },
-    {
-        title: "Cast a spell",
+        title: "주문 시전",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "행동의 시전시간을 가진 주문을 시전합니다",
+        description: "행동의 시전시간을 가진 주문을 시전합니다",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "한 턴에 슬롯을 소모하는 주문을 여러번 쓸 수는 없습니다.",
+            "주문의 대상은 주문의 범위 내에 있고, 벽 뒤에 있다던가 하지 않아야합니다.",
+            "물질 구성 요소를 사용하는 주문은 명시적으로 언급되지 않는 한 재료를 소모하지 않습니다. 재료 비용이 주어지지 않은 경우, 비용은 무시할 수 있을 정도로 적으며 재료는 구성 요소 주머니에 항상 있다고 가정할 수 있습니다.",
+            "일부 주문은 마법의 효과를 유지하기 위해 집중을 필요로 합니다. 집중을 잃으면 해당 주문은 효과가 사라집니다. 집중이 필요한 다른 주문을 시전하거나, 당신이 행동불능 상태가 되면 현재 시전 중인 주문에 대한 집중을 잃게 됩니다. 피해를 입을 때마다 집중을 유지하기 위해 건강 내성 굴림을 해야 합니다. 내성 굴림 난이도는 10 또는 입은 피해량의 절반 중 더 높은 값입니다."
         ]
     },
     {
-        title: "Dash",
+        title: "질주",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "속도를 2배로 합니다",
+        description: "다른 행동을 포기하고 열심히 달려 속도만큼 추가로 이동합니다!!",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "각종 보정이 적용된 이후 최종적인 속도만큼 추가로 이동하게 됩니다."
         ]
     },
     {
-        title: "Disengage",
+        title: "이탈",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "기회 공격을 피해 이동합니다",
+        description: "이번 턴 당신의 이동은 기회 공격을 유발하지 않습니다.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "회피",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "하지만 이렇게 간단하게 피했습니다",
+        description: "다른 행동을 포기하고 회피에 집중합니다",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "다음 턴이 시작될 때까지, 공격자를 볼 수 있는 경우 당신에게 가해지는 모든 공격 굴림은 불리점이 적용되고, 당신이 실시하는 민첩 내성 굴림에 이점이 적용됩니다.",
+            "당신이 행동불능 상태가 되거나 속도가 0이 되면 이 효과가 해제됩니다.."
         ]
     },
     {
-        title: "Escape",
+        title: "탈출",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "구속이나 붙잡기에서 벗어납니다",
+        description: "구속이나 붙잡기에서 벗어납니다",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "붙잡기에서 벗어나려면 한번 더 근력/민첩 내성굴림을 해서 붙잡기 난이도를 넘겨야 합니다.",
+            "수갑이나 밧줄 등 다른 구속에서 벗어나려면 해당 요인에 적힌대로 해야합니다."
         ]
     },
     {
-        title: "Help",
+        title: "지원",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "아군을 도와줍니다",
+        description: "아군이 능력 판정이나 공격 굴림을 할때 이점을 줍니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "당신이 숙련된 기술과 아군을 지정해 선언합니다. 그 아군이 그 기술로 하는 다음 판정에 이점을 부여합니다.",
+            "또는, 기술과 아군ㄴ 대신 당신으로부터 5피트 안에 있는 적을 지정합니다. 아군이 그 적에게 가하는 다음 공격엔 이점이 부여됩니다.",
+            "이 효과는 당신의 다음 턴 시작까지 적용됩니다."
         ]
     },
     {
-        title: "Use Object",
+        title: "물체 사용",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "각종 사물과 상호작용합니다.",
+        description: "각종 사물과 상호작용합니다.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "당신의 턴마다 한번, 문을 여닫거나 무기를 뽑거나 넣거나 하는 간단한 상호작용이 가능합니다. 그보다 복잡한 행동을 하려고 하거나, 2번째 상호작용이 하고싶다면 이렇게 행동을 소모하세요."
         ]
     },
     {
-        title: "Use shield",
+        title: "방패 탈착",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "방패를 장비하거나 벗습니다.",
+        description: "방패를 장비하거나 벗습니다.",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "방패를 장비하거나 벗으려면 행동이 필요합니다.",
+            "다른 방어구는 입거나 벗는데 수분~수십분이 필요합니다."
         ]
     },
     {
-        title: "Hide",
+        title: "은신",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
+        description: "숨습니다...",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "은신 행동을 사용하면 숨으려고 시도합니다. DC 15 민첩(은신) 판정에 성공해야 하며, 심하게 가려지거나 3/4 또는 완전 엄폐 뒤에서, 적의 시야에서 벗어나야 합니다. 만약 생물이 보이면, 그 생물이 자신을 볼 수 있는지 여부를 식별할 수 있습니다.",
+            "판정에 성공하면 은신 상태가 되어 보이지 않게 됩니다. 판정 결과값=다른 생물이 탐색 행동으로 당신을 찾아내기 위한 DC를 기록하세요.",
+            "다음 중 하나가 발생하면 즉시 은신이 풀립니다: 속삭임보다 더 큰 소리를 내거나, 적이 당신을 찾아내거나, 공격 굴림을 하거나, 음성 구성 요소가 있는 주문 시전하기."
         ]
     },
     {
-        title: "Search",
+        title: "탐색",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
+        description: "주변을 잘 살펴봅니다",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "보고자 하는것에 따라, 감지, 의학, 통찰, 생존 판정을 합니다."
+        ]
+    },
+        {
+        title: "연구",
+        icon: "magnifying-glass",
+        subtitle: "",
+        description: "무언가를 알아냅니다",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "알아내고자 하는것에 따라, 비전학,역사학,조사,자연학,종교학 판정을 합니다."
         ]
     },
     {
-        title: "Ready",
+        title: "준비",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "조건과 행동을 지정해 준비합니다",
+        description: "조건과 그에 따르는 행동을 선언합니다.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "준비행동은 특정 상황이 발생하기를 기다렸다가 행동하는 것입니다. 이 행동은 자신의 턴에 수행하며, 다음 턴 시작 전에 반응 행동으로 그 행동을 할 수 있게 해줍니다.",
+            "먼저, 어떤 상황이 반응 행동을 유발할지 결정합니다. 그런 다음, 그 유발 요인에 대한 반응으로 취할 행동을 선택하거나, 속도만큼 이동할 수 있습니다. 예를 들어, "광신도가 함정문을 밟으면 레버를 당겨 함정문을 열겠다" 또는 "좀비가 내 옆에 오면 도망치겠다"와 같은 상황들을 선택할 수 있습니다.",
+            "유발 요인이 발생하면, 그 상황이 끝난 직후에 반응 행동을 취하거나, 그 상황을 무시할 수 있습니다.",
+            "주문을 준비 상태로 만들면, 일반적인 주문 시전(시전 시 필요한 자원 소모)과 같이 주문을 시전하지만, 주문의 에너지를 저장해 두었다가 유발 요인이 발생하면 반응 행동으로 방출합니다. 주문이 준비 상태가 되려면 시전 시간이 행동이어야 하며, 주문의 마법 에너지를 유지하려면 집중이 필요합니다. 집중은 다음 턴 시작까지 유지할 ​​수 있습니다. 집중이 흐트러지면 주문은 효력을 발휘하지 못하고 사라집니다."
         ]
     },
     {
-        title: "Use class feature",
+        title: "특수 기능 사용",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "몇몇 기능은 행동으로 사용합니다",
+        description: "행동이 필요한 클래스/종족 기능을 사용합니다.",
+        reference: "각 클래스/종족 참조.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "생물 안정화",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        subtitle: "죽어가는 생물을 안정화시킵니다.",
+        description: "죽어가는 생물을 안정화시킵니다.",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "DC 10의 지혜(의학) 판정을 합니다.",
+            "성공하면 그 생물은 안정화되고, 죽음 내성 굴림을 하지 않아도 됩니다.",
+            "안정화된 생물은 즉시 짧은 휴식을 시작합니다."
         ]
     },
     {
-        title: "Improvise",
+        title: "기타",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "적히지 않은 무언가",
+        description: "상상할수 있는걸 해보세요.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "여기 적히지 않은 행동을 선언하세요. DM이 그게 가능한지 아닌지, 그리고 판정이 필요한지 이야기해줄 것입니다."
         ]
     }
 ]
