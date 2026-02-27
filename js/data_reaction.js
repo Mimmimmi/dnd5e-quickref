@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "기회 공격",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "적이 당신의 간격을 벗어날 때",
+        description: "적을 그냥 지나치는건 위험한 일입니다...",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "조건:적이 당신의 간격을 벗어날 때",
+            "그 적에게 근접 공격을 한번 할 수 있습니다.",
+            "이 공격은 해당 적이 간격을 벗어나기 직전 적용됩니다.",
+            "순간이동이나, 자신의 의지가 아닌 요인으로 움직이거나, 이탈 행동을 한 적은 기회공격을 유발하지 않습니다."
         ]
     },
     {
-        title: "Readied action",
+        title: "준비 행동",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "준비 행동의 일부",
+        description: "미리 준비해둔 행동을 합니다...",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "조건: 당신이 선언해둔 <i>준비</i> 행동에 따라 결정됩니다."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "주문 시전",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "반응행동의 시전 시간을 가진 주문",
+        description: "반응행동의 시전 시간을 가진 주문 하나를 시전합니다",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "조건 : 주문마다 다릅니다!",
+            "자세한 내용은 주문 시전 행동을 보세요."
         ]
     }
 ]
