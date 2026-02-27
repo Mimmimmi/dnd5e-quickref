@@ -1,132 +1,132 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "약간 가려짐",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
+        subtitle: "지각 판정에 불리점을 받습니다",
+        description: "희미한 빛, 옅은 안개, 적당한 수풀 등입니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "시야에 의존하는 <b>지혜(지각)</b> 판정에 불리점을 받습니다."
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "심하게 가려짐",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
+        subtitle: "사실상 실명 상태입니다",
+        description: "어둠, 짙은 안개, 빽빽한 수풀 등입니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "심하게 가려진 지역에 있는 생물은 사실상 <b>실명 상태</b>를 겪습니다."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "밝은 빛",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
+        subtitle: "정상적인 시야입니다",
+        description: "밝은 빛은 대부분의 생물이 정상적으로 볼 수 있게 합니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "흐린 날씨도 밝은 빛을 제공하며, 횃불, 등불, 화염 및 일정 반경 내의 다른 광원도 마찬가지입니다."
         ]
     },
     {
-        title: "Dim light",
+        title: "희미한 빛",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
+        subtitle: "약간 가려짐 상태입니다",
+        description: "희미한 빛은 그림자라고도 불립니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "<b>약간 가려진</b> 지역을 형성합니다.",
+            "희미한 빛 지역은 보통 횃불과 같은 밝은 광원과 주변의 어둠 사이의 경계에 해당합니다.",
+            "황혼과 새벽의 부드러운 빛도 희미한 빛으로 간주합니다. 특히 밝은 보름달은 대지를 희미한 빛으로 비출 수 있습니다."
         ]
     },
     {
-        title: "Darkness",
+        title: "어둠",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
+        subtitle: "심하게 가려짐 상태입니다",
+        description: "어둠은 심하게 가려진 지역을 만듭니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "<b>심하게 가려진</b> 지역을 형성합니다.",
+            "야외의 밤(대부분의 달빛이 있는 밤 포함), 빛이 없는 던전 내부나 지하 금고, 또는 마법적 어둠 지역에서 어둠을 마주하게 됩니다."
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "맹시",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
+        subtitle: "시야 없이 인지합니다",
+        description: "일정 반경 내에서 시야에 의존하지 않고 주변을 인지합니다",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "슬라임과 같이 눈이 없는 생물이나, 박쥐나 진정한 드래곤처럼 반향정위나 발달된 감각을 지닌 생물이 이 감각을 지닙니다."
         ]
     },
     {
-        title: "Darkvision",
+        title: "암시야",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
+        subtitle: "어둠에서 제한적으로 볼 수 있습니다",
+        description: "암시야를 지닌 생물은 일정 반경 내에서 어둠이나 희미한 빛 속에서 더 잘 볼 수 있습니다",
         reference: "PHB, pgs. 183-184.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "명시된 범위 내에서 암시야를 지닌 생물은 <b>어둠을 희미한 빛처럼 볼 수 있습니다</b>. 따라서 해당 생물에게 어둠 지역은 약간 가려진 것으로만 간주됩니다.",
+            "그러나 어둠 속에서는 색을 구별할 수 없으며, 회색 음영만 볼 수 있습니다.",
+            "D&D 세계의 많은 생물, 특히 지하에 거주하는 생물은 암시야를 지닙니다."
         ]
     },
     {
-        title: "Truesight",
+        title: "진시야",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        subtitle: "어둠 속에서도 봅니다",
+        description: "진시야를 지닌 생물은 환경과 무관하게 사물의 진정한 모습을 볼 수 있습니다",
         reference: "PHB, pg. 184.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "진시야를 지닌 생물은 일정 범위 내에서 일반적 및 마법적 어둠을 꿰뚫어 보고, 투명한 생물과 물체를 보며, 시각적 환영을 자동으로 간파하고 이에 대한 내성 굴림에 자동으로 성공하며, 형태변환자나 마법으로 변형된 생물의 본래 모습을 인지합니다.",
+            "또한, 에테르 차원을 볼 수 있습니다."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "엄폐 (절반)",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        subtitle: "낮은 벽, 가구, 생물 등입니다",
+        description: "장애물이 대상의 몸의 절반 이상을 가리면 절반 엄폐를 얻습니다",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "장애물은 낮은 벽, 큰 가구, 가는 나무줄기, 또는 적이든 아군이든 하나의 생물일 수 있습니다.",
+            "절반 엄폐를 가진 대상은 <b>AC와 민첩 내성 굴림에 +2 보너스</b>를 받습니다.",
+            "여러 엄폐 요소 뒤에 있다면, 가장 높은 단계의 엄폐만 적용됩니다."
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "엄폐 (4분의 3)",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        subtitle: "쇠창살문, 화살 구멍 등입니다",
+        description: "장애물이 대상의 약 4분의 3을 가리면 4분의 3 엄폐를 얻습니다",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "장애물은 쇠창살문, 화살 구멍, 또는 두꺼운 나무줄기일 수 있습니다.",
+            "4분의 3 엄폐를 가진 대상은 <b>AC와 민첩 내성 굴림에 +5 보너스</b>를 받습니다.",
+            "여러 엄폐 요소 뒤에 있다면, 가장 높은 단계의 엄폐만 적용됩니다."
         ]
     },
     {
-        title: "Full cover",
+        title: "완전 엄폐",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "완전히 가려졌습니다",
+        description: "장애물에 의해 완전히 가려지면 완전 엄폐를 얻습니다",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "완전 엄폐를 가진 대상은 <b>직접적으로 공격이나 주문의 대상이 될 수 없습니다</b>. 다만 일부 주문은 범위 효과에 포함시켜 영향을 줄 수 있습니다.",
+            "여러 엄폐 요소 뒤에 있다면, 가장 높은 단계의 엄폐만 적용됩니다."
         ]
     }
 ]
