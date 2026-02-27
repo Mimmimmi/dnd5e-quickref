@@ -1,200 +1,195 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "실명",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "당신은 볼 수 없다",
+        description: "당신은 볼 수 없다",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "시야가 필요한 모든 능력 판정에 자동으로 실패한다.",
+            "당신의 공격 판정은 불리점을 가진다.",
+            "당신을 대상으로 한 공격 판정은 이점을 가진다."
         ]
     },
     {
-        title: "Charmed",
+        title: "매혹",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "당신은 매혹되었다",
+        description: "당신은 다른 생물에게 매혹되었다",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "당신은 자신을 매혹한 존재를 공격하거나 해로운 능력이나 마법 효과의 대상으로 지정할 수 없다.",
+            "자신을 매혹한 존재는 당신과 사회적으로 상호작용하기 위한 능력 판정에 이점을 가진다."
         ]
     },
     {
-        title: "Deafened",
+        title: "청각 상실",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "당신은 들을 수 없다",
+        description: "당신은 들을 수 없다",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "청각이 필요한 모든 능력 판정에 자동으로 실패한다."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "탈진",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "당신은 탈진 상태다",
+        description: "탈진은 6단계까지 누적됩니다.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "탈진 단계마다 모든 D20 굴림에 -2 페널티를 받고, 속도가 5피트 줄어듭니다.",
+            "탈진이 6단계 쌓이면 죽습니다.",
+            "긴 휴식을 마치면 탈진 단계가 한단계 사라집니다."
         ]
     },
     {
-        title: "Frightened",
+        title: "공포",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "당신은 공포에 질렸습니다",
+        description: "당신은 공포에 질렸습니다",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "공포의 원인이 시야 내에 있는 동안 능력 판정과 공격 판정에 불리점을 받습니다.",
+            "당신은 자발적으로 공포의 원인에게 가까워지도록 이동할 수 없습니다."
         ]
     },
     {
-        title: "Grappled",
+        title: "붙잡힘",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "당신은 붙잡혔습니다",
+        description: "당신은 붙잡혔습니다",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "당신의 속도는 0이 되며, 속도에 대한 어떠한 보너스도 받을 수 없습니다.",
+            "당신을 붙잡은 존재가 무력화되면 이 상태는 종료됩니다.",
+            "당신이 어떻게든 붙잡은 존재의 사거리 밖으로 벗어나면 이 상태는 종료됩니다."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "무력화",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "당신은 행동이나 반응을 할 수 없습니다",
+        description: "당신은 행동이나 반응을 할 수 없습니다",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "투명",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "당신은 보이지 않는다",
+        description: "마법이나 특수한 감각의 도움 없이는 보이지 않는다",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "대상이 보여야 하는 능력의 대상이 되지 않습니다.",
+            "당신의 공격 판정은 이점을 받고, 당신을 대상으로 한 공격 판정은 불리점을 받습니다.",
+            "우선권 굴림에 이점을 받습니다.."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "마비",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "전 기 자 석 파",
+        description: "당신은 아무것도 할 수 없습니다...",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "당신은 행동불능 상태이며 이동하거나 말할 수 없습니다.",
+            "당신을 대상으로 한 공격 판정은 이점을 받습니다.",
+            "공격자가 당신으로부터 5피트 이내에 있다면, 당신에게 명중한 모든 공격은 치명타가 됩니다.",
+            "근력 및 민첩 내성 굴림에 자동으로 실패합니다."
         ]
     },
     {
-        title: "Petrified",
+        title: "석화",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "설마 당하겠어요?",
+        description: "착용하거나 휴대 중인 비마법 물체와 함께 단단한 무생물 물질(보통 돌)로 변합니다",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "당신은 행동불능 상태이며, 속도가 0이 됩니다.",
+            "당신을 대상으로 한 공격 판정은 이점을 가집니다.",
+            "근력 및 민첩 내성 굴림에 자동으로 실패합니다.",
+            "모든 피해에 저항합니다.",
+            "독과 질병에 면역이 되지만, 이미 체내에 있는 독이나 질병은 제거되지 않고 정지 상태가 됩니다."
         ]
     },
     {
-        title: "Poisoned",
+        title: "중독",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "당신은 중독되었습니다",
+        description: "당신은 중독되었습니다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "공격 판정과 능력 판정에 불리점을 가진다."
         ]
     },
     {
-        title: "Prone",
+        title: "넘어짐",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "당신은 넘어졌습니다",
+        description: "당신은 넘어졌습니다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "일어나지 않는 한, 이동 방식은 기어서만 이동할 수 있습니다.",
+            "공격 판정에 불리점을 받습니다.",
+            "공격자가 5피트 이내에 있다면 당신을 대상으로 한 공격 판정은 이점을 받며, 그렇지 않으면 불리점을 받습니다."
         ]
     },
     {
-        title: "Restrained",
+        title: "구속",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "당신은 구속되었다",
+        description: "당신은 구속되었다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "당신의 속도는 0이 되며, 속도에 대한 어떠한 보너스도 받을 수 없습니다.",
+            "공격 판정에 불리점을 가집니다.",
+            "당신을 대상으로 한 공격 판정은 이점을 받습니다.",
+            "민첩 내성 굴림에 불리점을 받습니다."
         ]
     },
     {
-        title: "Stunned",
+        title: "기절",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "당신은 기절했다",
+        description: "당신은 기절했다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "당신은 행동불능 상태이며, 말을 더듬거리듯이만 할 수 있습니다.",
+            "당신을 대상으로 한 공격 판정은 이점을 받습니다.",
+            "근력 및 민첩 내성 굴림에 자동으로 실패합니다."
         ]
     },
     {
-        title: "Unconscious",
+        title: "행동불능",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "당신은 의식이 없다",
+        description: "당신은 의식이 없다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "당신은 말할 수 없으며, 행동,추가행동,반응행동을 할 수 없습니다..",
+            "무언가에 집중하는 도중이었다면 집중도 해제됩니다.",
+            "우선권을 굴릴때 불리점이 적용됩니다."
         ]
     },
     {
-        title: "Dying",
+        title: "죽어감",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "당신은 죽어가고 있다",
+        description: "HP가 0이 되어 죽어가는 상태다",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "즉사하지 않는 피해로 HP가 0이 되면, 당신은 행동불능 상태가 되어 죽어가는 상태가 됩니다.",
+            "치유를 받으면 즉시 의식을 회복하며 더 이상 죽어가는 상태가 아니게 됩니다.",
+            "죽어가는 동안, 자신의 차례 시작 시마다 죽음 내성 굴림을 합니다. d20을 굴리며 어떤 수정치도 더하지 않습니다.",
+            "10 이상은 성공, 9 이하는 실패입니.",
+            "세 번째 성공 시, 안정화됩니다.",
+            "세 번째 실패 시, 사망합니다.",
+            "1이 나오면 실패 두 번으로 계산합니다.",
+            "20이 나오면 즉시 HP 1을 회복합니다.",
+            "아군이 안정화 행동을 사용해 DC 10 지혜(의학) 판정에 성공하면 안정화될 수 있습니다.",
+            "안정화되면 즉시 짧은 휴식을 시작합니다.."
         ]
     }
 ]
